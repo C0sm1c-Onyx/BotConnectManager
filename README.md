@@ -19,7 +19,7 @@ cd BotConnectManager
 ```bash
 docker-compose up --build
 ```
-## API:
+## API
 
 ### 1. Регистрация - POST http://127.0.0.1:8000/auth/register
 Пример входных данных:
