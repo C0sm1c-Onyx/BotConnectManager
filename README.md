@@ -21,36 +21,34 @@ docker-compose up --build
 ```
 ## API:
 
-### 1. Регистрация -
-POST http://127.0.0.1:8000/auth/register
-     
+### 1. Регистрация - POST http://127.0.0.1:8000/auth/register
 Пример входных данных:
+```bash
 {
     "email": "root@gmail.com",
     "username": "root",
     "password": "root_toor"
 }
-
-### 2. Авторизация -
-POST http://127.0.0.1:8000/auth/login
+```
+### 2. Авторизация - POST http://127.0.0.1:8000/auth/login
 Пример входных данных:
+```bash
 {
     "username": "root@gmail.com",
     "password": "root_toor"
 }
+```
+### 3. Просмотр всех ботов - GET http://127.0.0.1:8000/bot/bot-list/
 
-### 3. Просмотр всех ботов -
-GET http://127.0.0.1:8000/bot/bot-list/
-
-### 4. Подключить бота -
-POST http://127.0.0.1:8000/bot/connect-bot/
+### 4. Подключить бота - POST http://127.0.0.1:8000/bot/connect-bot/
 Пример входных данных:
+```bash
 {
     "bot_id": 1
 }
+```
 
-### 5. Просмотр подключенных ботов -
-GET http://127.0.0.1:8000/bot/my_connected_bot/
+### 5. Просмотр подключенных ботов - GET http://127.0.0.1:8000/bot/my_connected_bot/
 
 ## Telegram bot
 ### ссылка на телеграмм бота: https://t.me/sender_character_count_bot   
