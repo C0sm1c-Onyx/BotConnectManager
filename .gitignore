@@ -1,0 +1,4 @@
+.idea
+venv
+fastapi_service/__pycache__
+telegram_bot/__pycache__
