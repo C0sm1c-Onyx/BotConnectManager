@@ -38,7 +38,7 @@ docker-compose up --build
     "password": "root_toor"
 }
 ```
-![alt text]([https://www.flickr.com/photos/202946803@N04/54568272865/](https://drive.google.com/file/d/1ZDfiuArzBkv1wZXys68GLyl-jYmGweK4/view?usp=sharing))
+![alt text](https://www.flickr.com/photos/202946803@N04/54568272865/](https://drive.google.com/file/d/1ZDfiuArzBkv1wZXys68GLyl-jYmGweK4/view?usp=sharing)
 
 ### 3. Просмотр всех ботов - GET http://127.0.0.1:8000/bot/bot-list/
 
